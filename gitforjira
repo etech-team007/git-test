@@ -1,0 +1,7 @@
+#!/bin/bash
+read -p "Enter the repourl: " repourl
+git clone $repourl
+repo=$(ls $(pwd))
+cd $repo
+git branch --all > branche.txt
+cat branche.txt
