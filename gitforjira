@@ -5,3 +5,4 @@ repo=$(ls $(pwd))
 cd $repo
 git branch --all > branche.txt
 cat branche.txt
+echo "testing git auto on jira"
